@@ -147,4 +147,10 @@ input:focus{
 .card_information{
     display:flex;
     grid-column: 2 span;
+    gap: 1rem;
+}
+#card_date{
+    display:flex;
+    flex-direction: column;
+    grid-column: 1 span;
 }
